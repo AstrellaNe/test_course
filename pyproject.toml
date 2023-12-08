@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "first-test-lesson"
+version = "0.1.0"
+description = "Trying my first test in Py"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "first_test_lesson"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
